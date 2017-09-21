@@ -1,7 +1,7 @@
 # Terraform Sample Plans
 The following steps and sample plans on Microsoft Azure will provide a simple 'getting started' approach to [Terraform](//www.terraform.io).
 
-  ![Diagram](../images/Azure-Terraform-Example.png)
+  ![Diagram](/images/Azure-Terraform-Example.png)
 
 ### Prerequisites
 1. [Download Terraform.](https://www.terraform.io/downloads.html)
