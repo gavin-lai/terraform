@@ -35,7 +35,7 @@ If you'd like to experiment with this Azure sample plan without configuring your
 2. Input the subscription_id, client_id, client_secret and tenant_id previously documented into the plan and **save** it.
 
 ### Execute Sample Azure Terraform Plan
-1. Run ```Terraform init <directory that holds the SamplePlan.tf file>```. [Details on the init command are found in documentation.](https://www.terraform.io/docs/commands/init.html)
+1. Run ```Terraform init <directory that holds the 2-Tier-Ent-Service.tf file>```. [Details on the init command are found in documentation.](https://www.terraform.io/docs/commands/init.html)
 
     ```
     terraform init C:\Users\Chris\Documents\GitHub\terraform\AzurePlan
@@ -64,7 +64,7 @@ If you'd like to experiment with this Azure sample plan without configuring your
     commands will detect it and remind you to do so if necessary.
     ```
 
-2. Run ```Terraform plan <directory that holds the SamplePlan.tf file>```. You will be prompted to input an Azure **region** and quantity of **web virtual machines**. [Details on the plan command are found in documentation.](https://www.terraform.io/docs/commands/plan.html)
+2. Run ```Terraform plan <directory that holds the 2-Tier-Ent-Service.tf file>```. You will be prompted to input an Azure **region** and quantity of **web virtual machines**. [Details on the plan command are found in documentation.](https://www.terraform.io/docs/commands/plan.html)
 
     ```
     terraform plan C:\Users\Chris\Documents\GitHub\terraform\AzurePlan
@@ -107,7 +107,7 @@ If you'd like to experiment with this Azure sample plan without configuring your
     Plan: 24 to add, 0 to change, 0 to destroy.
     ````
 
-3. Run ```Terraform apply <directory that holds the SamplePlan.tf file>```. You will be prompted to input an Azure **region** and quantity of **web virtual machines** to deploy. [Details on the apply command are found in documentation.](https://www.terraform.io/docs/commands/apply.html)
+3. Run ```Terraform apply <directory that holds the 2-Tier-Ent-Service.tf file>```. You will be prompted to input an Azure **region** and quantity of **web virtual machines** to deploy. [Details on the apply command are found in documentation.](https://www.terraform.io/docs/commands/apply.html)
 
     ```
     terraform apply C:\Users\Chris\Documents\GitHub\terraform\AzurePlan
@@ -160,7 +160,7 @@ If you'd like to experiment with this Azure sample plan without configuring your
 4. Login to the Azure Portal and validate the services are present as desired.
 
 ### Destroy services
-1. Run ```Terraform destroy <directory that holds the SamplePlan.tf file>```. You will be prompted to input same Azure **region** and quantity of **web virtual machines** previously used. [Details on the destroy command are found in documentation.](https://www.terraform.io/docs/commands/destroy.html) You will be prompted after the state is refreshed to type in **yes** to confirm destruction of services.
+1. Run ```Terraform destroy <directory that holds the 2-Tier-Ent-Service.tf file>```. You will be prompted to input same Azure **region** and quantity of **web virtual machines** previously used. [Details on the destroy command are found in documentation.](https://www.terraform.io/docs/commands/destroy.html) You will be prompted after the state is refreshed to type in **yes** to confirm destruction of services.
 
     ```
     var.region
