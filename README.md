@@ -3,8 +3,10 @@ The following steps and sample plans on Microsoft Azure will provide a simple 'g
 
   ![Diagram](/images/Azure-Terraform-Example.png)
 
-### Azure Notes
-If you'd like to experiment with this Azure sample plan without configuring your local desktop [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) provides a simple way to clone your repo of plans and apply configurations. This guide will not cover Azure Cloud Shell.
+### Azure Cloud Shell
+If you'd like to experiment with this Azure sample plan without configuring your local desktop [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) provides a simple way to clone your repo of plans and apply configurations. Using Azure Cloud Shell you may skip any configuration of the Azure provider and simply use the Clone & Execute steps.
+
+[![Launch Cloud Shell](https://shell.azure.com/images/launchcloudshell.png "Launch Cloud Shell")](https://shell.azure.com)
 
 ### Prerequisites
 1. [Download Terraform.](https://www.terraform.io/downloads.html)
